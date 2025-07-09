@@ -1,0 +1,168 @@
+[2025-06-24T00:14:23.714+0000] {processor.py:157} INFO - Started process (PID=10915) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T00:14:23.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T00:14:23.724+0000] {logging_mixin.py:151} INFO - [2025-06-24T00:14:23.723+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T00:14:23.745+0000] {logging_mixin.py:151} INFO - [2025-06-24T00:14:23.741+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T00:14:23.746+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T00:14:23.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.086 seconds
+[2025-06-24T02:16:28.322+0000] {processor.py:157} INFO - Started process (PID=10916) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T02:16:28.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T02:16:28.333+0000] {logging_mixin.py:151} INFO - [2025-06-24T02:16:28.332+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T02:16:28.348+0000] {logging_mixin.py:151} INFO - [2025-06-24T02:16:28.345+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T02:16:28.349+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T02:16:28.393+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.079 seconds
+[2025-06-24T04:18:30.243+0000] {processor.py:157} INFO - Started process (PID=10917) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T04:18:30.368+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T04:18:30.379+0000] {logging_mixin.py:151} INFO - [2025-06-24T04:18:30.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T04:18:30.412+0000] {logging_mixin.py:151} INFO - [2025-06-24T04:18:30.408+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T04:18:30.412+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T04:18:30.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.361 seconds
+[2025-06-24T07:36:20.563+0000] {processor.py:157} INFO - Started process (PID=10918) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T07:36:20.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T07:36:20.572+0000] {logging_mixin.py:151} INFO - [2025-06-24T07:36:20.571+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T07:36:20.578+0000] {logging_mixin.py:151} INFO - [2025-06-24T07:36:20.577+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T07:36:20.579+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T07:36:20.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.086 seconds
+[2025-06-24T09:52:23.383+0000] {processor.py:157} INFO - Started process (PID=10919) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T09:52:23.384+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T09:52:23.391+0000] {logging_mixin.py:151} INFO - [2025-06-24T09:52:23.390+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T09:52:23.406+0000] {logging_mixin.py:151} INFO - [2025-06-24T09:52:23.400+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T09:52:23.406+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T09:52:23.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.061 seconds
+[2025-06-24T10:19:03.554+0000] {processor.py:157} INFO - Started process (PID=10920) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T10:19:03.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T10:19:03.571+0000] {logging_mixin.py:151} INFO - [2025-06-24T10:19:03.564+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T10:19:03.589+0000] {logging_mixin.py:151} INFO - [2025-06-24T10:19:03.587+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T10:19:03.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T10:19:03.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.092 seconds
+[2025-06-24T10:30:29.791+0000] {processor.py:157} INFO - Started process (PID=10921) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T10:30:29.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T10:30:29.800+0000] {logging_mixin.py:151} INFO - [2025-06-24T10:30:29.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T10:30:29.811+0000] {logging_mixin.py:151} INFO - [2025-06-24T10:30:29.806+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T10:30:29.812+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T10:30:29.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.072 seconds
+[2025-06-24T13:13:48.734+0000] {processor.py:157} INFO - Started process (PID=10922) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T13:13:48.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T13:13:48.754+0000] {logging_mixin.py:151} INFO - [2025-06-24T13:13:48.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T13:13:48.773+0000] {logging_mixin.py:151} INFO - [2025-06-24T13:13:48.767+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T13:13:48.776+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T13:13:48.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.094 seconds
+[2025-06-24T15:15:52.688+0000] {processor.py:157} INFO - Started process (PID=10923) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T15:15:52.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T15:15:52.697+0000] {logging_mixin.py:151} INFO - [2025-06-24T15:15:52.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T15:15:52.714+0000] {logging_mixin.py:151} INFO - [2025-06-24T15:15:52.706+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T15:15:52.714+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T15:15:52.758+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.092 seconds
+[2025-06-24T18:18:52.355+0000] {processor.py:157} INFO - Started process (PID=10924) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T18:18:52.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T18:18:52.368+0000] {logging_mixin.py:151} INFO - [2025-06-24T18:18:52.367+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T18:18:52.382+0000] {logging_mixin.py:151} INFO - [2025-06-24T18:18:52.380+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T18:18:52.382+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T18:18:52.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.075 seconds
+[2025-06-24T21:12:28.526+0000] {processor.py:157} INFO - Started process (PID=10925) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T21:12:28.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T21:12:28.534+0000] {logging_mixin.py:151} INFO - [2025-06-24T21:12:28.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T21:12:28.540+0000] {logging_mixin.py:151} INFO - [2025-06-24T21:12:28.539+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T21:12:28.541+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T21:12:28.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.053 seconds
+[2025-06-24T23:23:52.008+0000] {processor.py:157} INFO - Started process (PID=10926) to work on /opt/airflow/dags/redditdag.py
+[2025-06-24T23:23:52.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/redditdag.py for tasks to queue
+[2025-06-24T23:23:52.017+0000] {logging_mixin.py:151} INFO - [2025-06-24T23:23:52.016+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/redditdag.py
+[2025-06-24T23:23:52.025+0000] {logging_mixin.py:151} INFO - [2025-06-24T23:23:52.023+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/redditdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/redditdag.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-06-24T23:23:52.025+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/redditdag.py
+[2025-06-24T23:23:52.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/redditdag.py took 0.076 seconds
